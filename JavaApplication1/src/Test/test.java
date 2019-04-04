@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package Test;
 
 import java.util.Scanner;
 
@@ -11,15 +11,20 @@ import java.util.Scanner;
  *
  * @author wic180056
  */
-public class TestIntMyStack {
+public class test {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Scanner s=new Scanner(System.in);
-        MyStack<Integer> i=new MyStack();
-        
+         MyStack<String> ch=new MyStack();
+         Scanner s=new Scanner(System.in);
+         System.out.println("Input: ");
+         String input=s.nextLine();
+         for(int i=0;i<input.length();i++){
+             if(input.charAt(i)=='('){
+             }
+         }
     }
     
 }

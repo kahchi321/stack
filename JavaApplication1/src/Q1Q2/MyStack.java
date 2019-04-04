@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package Q1Q2;
 
 import java.util.ArrayList;
 import java.util.EmptyStackException;
@@ -21,7 +21,6 @@ public class MyStack<E> {
     
     public void push(E o){
         stack.add(o);
-
     }
     
  public E pop(){
